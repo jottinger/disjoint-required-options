@@ -12,6 +12,8 @@ plugins {
 
     // Apply the application plugin to add support for building an application
     application
+
+    id("com.github.johnrengelman.shadow") version "4.0.4"
 }
 
 repositories {
